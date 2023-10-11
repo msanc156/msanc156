@@ -116,7 +116,7 @@ public class JNCalendarPanel extends JPanel {
     border2 = BorderFactory.createEmptyBorder();
     this.setLayout(new BorderLayout());
     navigationBar.setFloatable(false);
-    
+    /*
     dayForwardB.setAction(dayForwardAction);
     dayForwardB.setMinimumSize(new Dimension(24, 24));
     dayForwardB.setOpaque(false);
@@ -127,7 +127,7 @@ public class JNCalendarPanel extends JPanel {
     dayForwardB.setIcon(new ImageIcon(main.java.memoranda.ui.AppFrame.class.getResource("/ui/icons/forward.png")));
     dayForwardB.setText("");
     dayForwardB.setToolTipText(Local.getString("One day forward"));
-    
+    */
     dayForwardBPanel.setAlignmentX((float) 0.0);
     dayForwardBPanel.setMinimumSize(new Dimension(40, 24));
     dayForwardBPanel.setOpaque(false);
