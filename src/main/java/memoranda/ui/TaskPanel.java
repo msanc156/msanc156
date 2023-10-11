@@ -114,7 +114,7 @@ public class TaskPanel extends JPanel {
             }
         });
         newTaskB.setBorderPainted(false);
-        
+       /* 
         subTaskB.setIcon(
             new ImageIcon(main.java.memoranda.ui.AppFrame.class.getResource("/ui/icons/todo_new_sub.png")));
         subTaskB.setEnabled(true);
@@ -129,8 +129,8 @@ public class TaskPanel extends JPanel {
                 addSubTask_actionPerformed(e);
             }
         });
-        subTaskB.setBorderPainted(false);
-
+        subTaskB.setBorderPainted(false); 
+*/
         editTaskB.setBorderPainted(false);
         editTaskB.setFocusable(false);
         editTaskB.addActionListener(new java.awt.event.ActionListener() {

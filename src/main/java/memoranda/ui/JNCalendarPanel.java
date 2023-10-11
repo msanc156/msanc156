@@ -78,14 +78,14 @@ public class JNCalendarPanel extends JPanel {
   }
 
   public Action dayBackAction =
-        new AbstractAction(
-            "Go one day back",
-            new ImageIcon(main.java.memoranda.ui.AppFrame.class.getResource("/ui/icons/back16.png"))) {
-        public void actionPerformed(ActionEvent e) {
-            dayBackB_actionPerformed(e);
-        }
-  };
-  
+	        new AbstractAction(
+	            "Go one day back",
+	            new ImageIcon(main.java.memoranda.ui.AppFrame.class.getResource("/ui/icons/back16.png"))) {
+	        public void actionPerformed(ActionEvent e) {
+	            dayBackB_actionPerformed(e);
+	        }
+	  };
+ 
   public Action dayForwardAction =
         new AbstractAction(
             "Go one day forward",
@@ -116,6 +116,7 @@ public class JNCalendarPanel extends JPanel {
     border2 = BorderFactory.createEmptyBorder();
     this.setLayout(new BorderLayout());
     navigationBar.setFloatable(false);
+    
     dayForwardB.setAction(dayForwardAction);
     dayForwardB.setMinimumSize(new Dimension(24, 24));
     dayForwardB.setOpaque(false);
@@ -131,7 +132,7 @@ public class JNCalendarPanel extends JPanel {
     dayForwardBPanel.setMinimumSize(new Dimension(40, 24));
     dayForwardBPanel.setOpaque(false);
     dayForwardBPanel.setPreferredSize(new Dimension(40, 24));
-    
+   
     todayB.setAction(todayAction);
     todayB.setMinimumSize(new Dimension(24, 24));
     todayB.setOpaque(false);

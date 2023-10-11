@@ -82,6 +82,7 @@ public class EventNotificationDialog extends JFrame {
         jButton1_actionPerformed(e);
       }
     });
+ 
     panel1.setBorder(border4);
     panel1.setMinimumSize(new Dimension(300, 200));
     panel1.setPreferredSize(new Dimension(300, 200));
